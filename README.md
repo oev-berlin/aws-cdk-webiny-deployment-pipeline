@@ -1,6 +1,8 @@
 # CodePipeline for webiny.com CMS
 This AWS CDK project will create a CodePipeline to deploy the webiny.com cms. The aim is to allow a team to work on the same project using the same state files. All environment and state files are stored in s3 buckets and will be used by CodeBuild to read / write new states.
 
+![alt text](/infrastructure/webiny-deployment-pipeline.png)
+
 
 ## Deploy the pipeline
 
